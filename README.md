@@ -1,4 +1,4 @@
-# draggab-ecards
+# draggable-cards
 
 - [DraggableCards.js](https://code4fukui.github.io/draggable-cards/)
 
