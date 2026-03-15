@@ -1,5 +1,7 @@
 # draggable-cards
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 Draggable cards using vanilla JavaScript.
 
 ## Demo
