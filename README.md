@@ -1,8 +1,16 @@
 # draggable-cards
 
-- [DraggableCards.js](https://code4fukui.github.io/draggable-cards/)
+Draggable cards using vanilla JavaScript.
 
-## usage
+## Demo
+See the [live demo](https://code4fukui.github.io/draggable-cards/).
+
+## Features
+- Draggable cards that snap to a grid
+- Supports stacking of cards
+- Lightweight and dependency-free
+
+## Usage
 
 ```js
 import { DraggableCards } from "https://code4fukui.github.io/draggable-cards/DraggableCards.js";
@@ -11,11 +19,13 @@ const snapw = 60;
 const snaph = 80;
 const dcards = new DraggableCards(snapw, snaph);
 for (let i = 1; i <= 13; i++) {
-	const card = document.createElement('div');
-	card.className = 'card';
-	card.textContent = i;
-	//document.body.appendChild(card);
-	main.appendChild(card);
-	dcards.add(card);
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.textContent = i;
+  main.appendChild(card);
+  dcards.add(card);
 }
 ```
+
+## License
+MIT License
