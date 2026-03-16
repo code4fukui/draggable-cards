@@ -30,4 +30,4 @@ for (let i = 1; i <= 13; i++) {
 ```
 
 ## License
-MIT License
+MIT License — see [LICENSE](LICENSE).
